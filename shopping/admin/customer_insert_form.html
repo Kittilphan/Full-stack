@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+</head>
+<body>
+    <center>
+        <font size="7">ใส่ข้อมูลลูกค้าที่ต้องการ</font><hr color="blue">
+        <h1> รหัส </h1>
+        <div>
+            <form method="post" action="customer_insert.php">
+                <label for="a1">ID:</label>
+                <label for="a2">ชื่อ:</label>
+                <input type="text" id="a2" name="a2" size="20" maxlength="20"> <br>
+    
+                <label for="a3">เพศ:</label>
+                <input type="text" id="a3" name="a3" size="1" maxlength="1"> <br>
+    
+                <label for="a4">ที่อยู่:</label>
+                <textarea id="a4" name="a4" rows="4" required></textarea> <br>
+    
+                <label for="a5">เบอร์โทรศัพท์:</label>
+                <input type="text" id="a5" name="a5" size="10" maxlength="10" ><br><br>
+    
+                <input type="submit" value="ยืนยัน">
+                <input type="reset" value="ยกเลิก">
+            </form>
+        </div>
+    </center>
+</body>
+</html>

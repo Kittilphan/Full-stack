@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+</head>
+<body>
+    <center>
+        <font size="7">ใส่ข้อมูลสินค้าที่ต้องการ</font><hr color="blue">
+        <div>
+            <form method="post" action="stock_insert.php">
+                <label for="a1">ID:</label>
+                <label for="a2">ชื่อสินค้า:</label>
+                <input type="text" id="a2" name="a2" size="20" maxlength="20"> <br>
+    
+                <label for="a3">ราคาต่อหน่วย:</label>
+                <input type="text" id="a3" name="a3" size="1" > <br>
+    
+                <label for="a4">จำนวนสินค้า:</label>
+                <input type="text" id="a4" name="a4" size="1" > <br>
+       
+                <input type="submit" value="ยืนยัน">
+                <input type="reset" value="ยกเลิก">
+            </form>
+        </div>
+    </center>
+</body>
+</html>
